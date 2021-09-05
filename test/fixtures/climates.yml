@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  diameter: MyString
+  rotation_period: MyString
+  orbital_period: MyString
+  gravity: MyString
+  population: MyString
+  terrain: MyString
+  surface_water: MyString
+  url: MyString
+
+two:
+  diameter: MyString
+  rotation_period: MyString
+  orbital_period: MyString
+  gravity: MyString
+  population: MyString
+  terrain: MyString
+  surface_water: MyString
+  url: MyString
