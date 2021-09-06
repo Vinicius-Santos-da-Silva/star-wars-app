@@ -1,7 +1,30 @@
-# star-wars-app
+# Star Wars App
+## Este é o repositório do Backend em Ruby on Rails.
 
-1. bundle install
-2. No arquivo config/database.yml, ajustar as variáveis com relação a configuração do seu banco de dados.
-3. No banco de dados, executar o seguinte comando: CREATE SCHEMA `swapi_test` DEFAULT CHARACTER SET utf8;
-4. rails db:migrate ,para criar as tabelas no BD.
-5. rake swapi:import , para consumir a API do SWAPI e salvar no BD.
+
+Frontend - (https://github.com/Vinicius-Santos-da-Silva/star-wars-app-front)
+
+Star Wars API (https://swapi.dev/)
+
+## Instruções para rodar a aplicação.
+
+- Para instalar as dependências da aplicação.
+```sh
+bundle install
+```
+
+- No arquivo config/database.yml, ajustar as variáveis com relação a configuração do seu banco de dados.
+
+-  No banco de dados, executar o seguinte comando:
+```sh
+CREATE SCHEMA `swapi_test` DEFAULT CHARACTER SET utf8;
+```
+-  Para criar as tabelas no BD execute o comando :
+```sh
+rails db:migrate
+```
+
+- Comando CLI do Rails para rodar uma task e consumir a API do SWAPI e salvar no BD. Sendo este um dos requisitos do desafio.
+```sh
+rake swapi:import
+```
